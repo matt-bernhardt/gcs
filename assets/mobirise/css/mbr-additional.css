@@ -1,4 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
 @isPublish: true;
+
+#form2-14 {
+}
 
 #msg-box4-p {
 .mbr-header__text {
@@ -536,5 +541,16 @@ P {
 }
 .mbr-navbar__hamburger {
   color: #ffffff;
+}
+.mbr-navbar__items a {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+}
+
+#contacts1-x {
+P {
+  font-size: 30px;
+  text-align: center;
 }
 }
