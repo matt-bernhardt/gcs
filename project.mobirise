@@ -3,7 +3,7 @@
     "name": "Grand Challenges Summit",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 41,
+    "uniqCompNum": 48,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": [
@@ -28,9 +28,9 @@
       "components": [
         {
           "_params": {
-            "showTitle": true,
-            "paddingTop": "2",
-            "paddingBottom": "2",
+            "showTitle": false,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
@@ -41,7 +41,7 @@
             "overlayOpacity": 0.5
           },
           "title": "GET UPDATES",
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\">SUBSCRIBE</a>",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">GET UPDATES</a>",
           "form": {
             "action": "",
             "alerts": {
@@ -66,11 +66,11 @@
             "showTitle": true,
             "showMeta": true,
             "showText": true,
-            "showButtons": true,
+            "showButtons": false,
             "inverse": false,
-            "imageSize": 50,
+            "imageSize": "29",
             "paddingTop": "1",
-            "paddingBottom": 3,
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/15656704711-dd25db3897-o-2000x1333.jpg",
             "parallax": true,
@@ -107,7 +107,7 @@
             }
           },
           "title": "Working Summit for <br>Grand Challenges&nbsp;",
-          "text": "<p>Develop priority research questions within,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Open scholarship</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Discovery and use</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Digital curation and preservation.</p>",
+          "text": "<p>Develop priority research questions within,</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Open scholarship</p><p>&nbsp; &nbsp; Scholarly discovery&nbsp;</p><p>&nbsp;&nbsp;&nbsp;&nbsp;Digital curation and preservation</p>",
           "_tags": [
             "Theme"
           ],
@@ -526,6 +526,9 @@
             },
             ".nav-link:hover, .dropdown-item:hover": {
               "color": "@itemsHoverColor !important"
+            },
+            "B": {
+              "color": "#f97352"
             }
           },
           "_cid": "qEzaXIJECa",
@@ -625,35 +628,67 @@
           "_anchor": "footer1-g"
         },
         {
-          "_inherit": "header1",
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            },
+            ".mbr-article P": {
+              "text-align": "center"
+            }
+          },
           "_params": {
             "showTitle": true,
+            "showMeta": true,
             "showText": true,
-            "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "center",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/15656704711-dd25db3897-o-2000x1333.jpg",
+            "showButtons": true,
+            "inverse": true,
+            "imageSize": 50,
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgColor": "#cccccc",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#222",
-            "overlayOpacity": "0.7"
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
           },
           "title": "About the Summit",
-          "text": "The Summit will identify and prioritize specific grand challenges in each of the following targeted areas of the information sciences and scholarly communications:<br>\n<br>1. Scholarly discovery\n<br>2. Digital curation and preservation\n<br>3. Open scholarship",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "meta": "A Working Summit on the Grand Challenges in <br>Information Science and Scholarly Communications",
+          "text": "<p>The Summit’s purpose will be to identify and prioritize specific grand challenges in each of the following targeted areas of the information sciences and scholarly communications: </p><p>&nbsp;&nbsp;&nbsp;&nbsp;1) scholarly discovery</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2) digital curation and preservation</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3) open scholarship</p><p>The identification of the central questions within each Challenge area will pave the way for building an information science and scholarly communications research agenda for the information science and library research community over the next five to ten years; and the Summit will establish connections among stakeholders and innovators from across disciplines that promote future</p><p>collaboration.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header2",
-          "_anchor": "header2-h"
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-18"
         },
         {
           "_params": {
@@ -685,7 +720,7 @@
           "media1": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/hayden-crop-467x500.jpg",
+              "src": "@PROJECT_PATH@/assets/images/hayden-official-600x900.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -703,12 +738,12 @@
             }
           },
           "title1": "Dr. Carla Hayden",
-          "caption1": "Carla Hayden was sworn in as the 14th Librarian of Congress on September 14, 2016. Hayden, the first woman and the first African American to lead the national library, was nominated to the position by President Barack Obama on February 24, 2016, and her nomination was confirmed by the U.S. Senate on July 13.<br><br>Prior to her latest post she served, since 1993, as CEO of the Enoch Pratt Free Library in Baltimore, Maryland. Hayden was nominated by President Obama to be a member of the National Museum and Library Services Board in January 2010 and was confirmed to that post by the Senate in June 2010. Prior to joining the Pratt Library, Hayden was deputy commissioner and chief librarian of the Chicago Public Library from 1991 to 1993.<br>",
+          "caption1": "Carla Hayden was sworn in as the 14th Librarian of Congress on September 14, 2016. Hayden, the first woman and the first African American to lead the national library, was nominated to the position by President Barack Obama on February 24, 2016, and her nomination was confirmed by the U.S. Senate on July 13.&nbsp;",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/ito-crop-467x500.jpg",
+              "src": "@PROJECT_PATH@/assets/images/ito-298x320.jpg",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -726,12 +761,12 @@
             }
           },
           "title2": "Joi Ito",
-          "caption2": "Joi Ito is the director of the MIT Media Lab, Professor of the Practice at MIT and the author, with Jeff Howe, of Whiplash: How to Survive Our Faster Future (Grand Central Publishing, 2016).<br><br>Ito is a Visiting Professor of Law from Practice at the Harvard Law School. \n<br>\n<br>Ito is chairman of the board of PureTech Health and serves on several other boards, including The New York Times Company, the MacArthur Foundation and the Knight Foundation. He also serves as a strategic advisor to the Sony Corporation. He is the former chairman and CEO of Creative Commons, and a former board member of ICANN, The Open Source Initiative, and The Mozilla Foundation.&nbsp;<br>",
+          "caption2": "Joi Ito is the director of the MIT Media Lab, Professor of the Practice at MIT and the author, with Jeff Howe, of Whiplash: How to Survive Our Faster Future (Grand Central Publishing, 2016). <br><br><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
               "active": true,
-              "src": "@PROJECT_PATH@/assets/images/sengupta-crop-467x500.jpg",
+              "src": "@PROJECT_PATH@/assets/images/sengupta-600x585.png",
               "class": "mbr-figure__img",
               "width": 600,
               "link": "",
@@ -749,7 +784,7 @@
             }
           },
           "title3": "Anasuya Sengupta",
-          "caption3": "Anasuya Sengupta is Co-Director of Whose Knowledge?. She has led initiatives in India and the USA, across the global South, and internationally for over 20 years, to amplify marginalised voices in virtual and physical worlds. She is the former Chief Grantmaking Officer at the Wikimedia Foundation and a 2017 Shuttleworth Fellow. Anasuya holds an MPhil in Development Studies from the University of Oxford, where she studied as a Rhodes Scholar. She also has a BA in Economics (Honours) from Delhi University. When not rabble-rousing online, Anasuya builds and breaks pots, takes long walks by the ocean and in the redwoods, and contorts herself into yoga poses.",
+          "caption3": "Anasuya Sengupta is Co-Director of <br>Whose Knowledge? whoseknowledge.org&nbsp;<br>She has led initiatives in India and the USA, across the global South, and internationally for over 20 years, to amplify marginalised voices in virtual and physical worlds. ",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
@@ -818,41 +853,164 @@
           "_anchor": "features1-r"
         },
         {
-          "_inherit": "header1",
+          "_inherit": "features1",
           "_params": {
-            "showTitle": true,
-            "showText": true,
+            "showHeader": true,
+            "showSubheader": false,
+            "showImages": false,
+            "showTitles": true,
+            "showCaptions": true,
             "showButtons": false,
-            "showArrow": false,
-            "contentAlign": "right",
-            "bgImageRadio": true,
-            "bgImage": "@PROJECT_PATH@/assets/images/dsc-42-2000x1330.jpg",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-1635x1080.jpg",
             "parallax": true,
-            "bgColorRadio": false,
-            "bgColor": "#4c6972",
+            "bgColorRadio": true,
+            "bgColor": "#7ac673",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": true,
+            "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
           },
-          "title": "Schedule",
-          "text": "The Grand Challenges Summit will run from March 19 - 23, 2018. We will address each individual challenge for a day and a half:<br>Scholarly Discovery: March 19-20<br>Digital Curation and Preservation: March 20-21<br>Open Scholarship: March 22-23",
-          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> ",
           "_tags": [
             "Theme"
           ],
-          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
-          "_name": "header4",
-          "_anchor": "header4-j"
+          "headerAlign": "left",
+          "header": "Attending",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "images/bootstrap.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "SCHEDULE",
+          "caption1": "Scholarly Discovery <br>March 19-20, 2018<br><br>Digital Curation &amp; Preservation <br>March 20-2, 2018<br><br>Open Scholarship <br>March 22-23, 2018<br><br>",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "images/responsive.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "LOCATION",
+          "caption2": "Residence Inn Boston Cambridge<br>Six Cambridge Center, <br>120 Broadway, Cambridge, MA 02142<br>617-349-0700<br>(http://www.marriott.com/hotels/travel/boscm-residence-inn-boston-cambridge)<br><br>",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "images/google-fonts.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "TRAVEL ARRANGEMENTS",
+          "caption3": "Please visit this site to make hotel and travel arragements to the Summit, (url)",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "BEST PLACES IN CAMBRIDGE",
+          "caption4": "Restaurants,<br>one<br>two&nbsp;<br>three<br><br>Wine &amp; Cocktails,<br>one<br>two <br>three<br><br>",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_name": "content4",
+          "_anchor": "content4-1b"
         },
         {
           "_params": {
             "showHeader": true,
             "showSubheader": false,
-            "showImages": false,
+            "showImages": true,
             "showTitles": true,
             "showCaptions": true,
             "showButtons": false,
@@ -873,7 +1031,7 @@
             "overlayOpacity": 0.5
           },
           "headerAlign": "left",
-          "header": "Three Challenges",
+          "header": "Grand Challenges",
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
@@ -1043,7 +1201,7 @@
             "overlayColor": "#28324e",
             "overlayOpacity": "0.6"
           },
-          "title": "Updates",
+          "title": "Blog Updates",
           "text": "<p>Welcome to the Grand Challenges website!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
@@ -1105,7 +1263,7 @@
           },
           "title": "LIVESTREAM",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Selected events during the Summit will be streamed live via YouTube. The schedule is:</p><p>March 19 - Dr. Carla Hayden keynote<br>March 20 - Joi Ito keynote<br>March 22 - Anasuya Sengupta keynote</p>",
+          "text": "<p>Online video and Youtube particularly is now more popular than cable television. Mobirise provides a support for YouTube and Vimeo that allow you to liven up your sites.</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">WATCH</a>",
           "_tags": [
             "Theme"
@@ -1208,8 +1366,7 @@
           "_anchor": "contacts1-x",
           "_styles": {
             "P": {
-              "font-size": "30px",
-              "text-align": "center"
+              "font-size": "30px"
             }
           }
         }

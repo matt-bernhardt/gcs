@@ -413,6 +413,9 @@ nav.opened .hamburger span {
 .nav-link:hover, .dropdown-item:hover {
   color: @itemsHoverColor !important;
 }
+B {
+  color: #f97352;
+}
 }
 
 #footer1-g {
@@ -488,13 +491,25 @@ padding-bottom: (@paddingBottom * 15px);
 }
 }
 
-#header2-h {
+#msg-box5-18 {
+.mbr-header__text {
+  color: #ffffff;
+}
+.mbr-header__subtext {
+  color: #ffffff;
+}
+.mbr-article {
+  color: #ffffff;
+}
+.mbr-article P {
+  text-align: center;
+}
 }
 
 #features1-r {
 }
 
-#header4-j {
+#content4-1b {
 }
 
 #features1-m {
@@ -551,6 +566,5 @@ P {
 #contacts1-x {
 P {
   font-size: 30px;
-  text-align: center;
 }
 }
