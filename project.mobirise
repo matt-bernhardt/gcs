@@ -3,7 +3,7 @@
     "name": "Grand Challenges Summit",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 48,
+    "uniqCompNum": 56,
     "versionPublish": "4.5.2",
     "theme": {
       "additionalSetColors": [
@@ -26,6 +26,27 @@
         "html_before": ""
       },
       "components": [
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#f0f0f0",
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "text": "FOLLOW US",
+          "icons": "<a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-twitter\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-facebook\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-facebook\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-youtube\" title=\"YouTube\" target=\"_blank\" href=\"http://www.youtube.com/channel/UCt_tncVAetpK5JeM8L-8jyw\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-youtube\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-instagram\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-instagram\"></i></a>  <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-github\" title=\"GitHub\" target=\"_blank\" href=\"https://github.com/Mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize\"><i class=\"socicon socicon-github\"></i></a> <a data-app-btn=\"true\" class=\"mbr-social-icons__icon socicon-bg-behance\" title=\"Behance\" target=\"_blank\" href=\"https://www.behance.net/Mobirise\"><i class=\"socicon socicon-behance\"></i></a>   ",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-1j"
+        },
         {
           "_params": {
             "showTitle": false,
@@ -639,7 +660,8 @@
               "color": "#ffffff"
             },
             ".mbr-article P": {
-              "text-align": "center"
+              "text-align": "center",
+              "color": "#000000"
             }
           },
           "_params": {
@@ -648,14 +670,14 @@
             "showText": true,
             "showButtons": true,
             "inverse": true,
-            "imageSize": 50,
+            "imageSize": "54",
             "paddingTop": "1",
             "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#cccccc",
+            "bgColor": "#475577",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -683,7 +705,7 @@
           "title": "About the Summit",
           "meta": "A Working Summit on the Grand Challenges in <br>Information Science and Scholarly Communications",
           "text": "<p>The Summit’s purpose will be to identify and prioritize specific grand challenges in each of the following targeted areas of the information sciences and scholarly communications: </p><p>&nbsp;&nbsp;&nbsp;&nbsp;1) scholarly discovery</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2) digital curation and preservation</p><p>&nbsp;&nbsp;&nbsp;&nbsp;3) open scholarship</p><p>The identification of the central questions within each Challenge area will pave the way for building an information science and scholarly communications research agenda for the information science and library research community over the next five to ten years; and the Summit will establish connections among stakeholders and innovators from across disciplines that promote future</p><p>collaboration.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
@@ -856,36 +878,35 @@
           "_inherit": "features1",
           "_params": {
             "showHeader": true,
-            "showSubheader": false,
-            "showImages": false,
+            "showSubheader": true,
+            "showImages": true,
             "showTitles": true,
             "showCaptions": true,
             "showButtons": false,
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "columns": "4",
             "bgImageRadio": false,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-1635x1080.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#7ac673",
+            "bgColor": "#475577",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
+            "overlay": true,
             "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlayOpacity": "0.6"
           },
           "_tags": [
             "Theme"
           ],
           "headerAlign": "left",
           "header": "Attending",
-          "subheader": "By John Smith posted July 30, 2015",
+          "subheader": "Information for Summit Participants",
           "media1": {
             "image": {
-              "active": true,
               "src": "images/bootstrap.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -896,8 +917,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "calendar",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title1": "SCHEDULE",
@@ -905,7 +930,6 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
-              "active": true,
               "src": "images/responsive.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -916,16 +940,19 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "map-pin",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title2": "LOCATION",
-          "caption2": "Residence Inn Boston Cambridge<br>Six Cambridge Center, <br>120 Broadway, Cambridge, MA 02142<br>617-349-0700<br>(http://www.marriott.com/hotels/travel/boscm-residence-inn-boston-cambridge)<br><br>",
+          "caption2": "<a href=\"http://www.marriott.com/hotels/travel/boscm-residence-inn-boston-cambridge\">Residence Inn Boston Cambridge</a><br>Six Cambridge Center, <br>120 Broadway, Cambridge, MA 02142<br>617-349-0700<br>(http://www.marriott.com/hotels/travel/boscm-residence-inn-boston-cambridge)<br><br>",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
-              "active": true,
               "src": "images/google-fonts.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -936,16 +963,19 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "touch",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title3": "TRAVEL ARRANGEMENTS",
-          "caption3": "Please visit this site to make hotel and travel arragements to the Summit, (url)",
+          "caption3": "Make hotel and travel arragements to the Summit, (kelly's-url.com)",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media4": {
             "image": {
-              "active": true,
               "src": "images/unlimited-websites.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -956,11 +986,15 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "features",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
-          "title4": "BEST PLACES IN CAMBRIDGE",
+          "title4": "BEST MEETING PLACES <br>IN CAMBRIDGE",
           "caption4": "Restaurants,<br>one<br>two&nbsp;<br>three<br><br>Wine &amp; Cocktails,<br>one<br>two <br>three<br><br>",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media5": {
@@ -1004,7 +1038,14 @@
           "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
           "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "_name": "content4",
-          "_anchor": "content4-1b"
+          "_anchor": "content4-1b",
+          "_styles": {
+            ".mbr-header__subtext": {
+              "text-align": "right",
+              "color": "#7ac673",
+              "font-size": "16px"
+            }
+          }
         },
         {
           "_params": {
@@ -1017,25 +1058,24 @@
             "paddingTop": 3,
             "paddingBottom": 3,
             "columns": "3",
-            "bgImageRadio": false,
-            "bgImage": "images/bg3.jpg",
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mc1-1-2000x2588.jpg",
             "parallax": true,
-            "bgColorRadio": true,
+            "bgColorRadio": false,
             "bgColor": "#ffffff",
             "bgVideoRadio": false,
             "bgVideo": {
               "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
+            "overlay": true,
+            "overlayColor": "#ffffff",
+            "overlayOpacity": "0.6"
           },
           "headerAlign": "left",
           "header": "Grand Challenges",
           "subheader": "By John Smith posted July 30, 2015",
           "media1": {
             "image": {
-              "active": true,
               "src": "images/bootstrap.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -1046,8 +1086,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "search",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title1": "Scholarly Discovery",
@@ -1055,7 +1099,6 @@
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media2": {
             "image": {
-              "active": true,
               "src": "images/responsive.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -1066,8 +1109,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "setting2",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title2": "Digital Curation and Preservation",
@@ -1075,7 +1122,6 @@
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
           "media3": {
             "image": {
-              "active": true,
               "src": "images/google-fonts.png",
               "class": "mbr-figure__img",
               "width": 600
@@ -1086,8 +1132,12 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-features1",
+              "linkInNewWindow": false,
+              "name": "user2",
+              "family": "MobiriseIcons",
               "link": "",
-              "size": 0
+              "size": "100",
+              "active": true
             }
           },
           "title3": "Open Scholarship",
@@ -1160,9 +1210,336 @@
           "_anchor": "features1-m",
           "_styles": {
             "P": {
-              "color": "#f7da64"
+              "color": "#000000"
             }
           }
+        },
+        {
+          "_params": {
+            "showHeader": true,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "4",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#475577",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "Program Committee",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/altman-180x220.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Micah Altman",
+          "caption1": "Micah Altman is Director of Research and Head/Scientist, Program on Information Science for the MIT Libraries, at the Massachusetts Institute of Technology. ",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/borgmanuclaphoto2013-2-600x904.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "Chris Borgman",
+          "caption2": "Christine L. Borgman is Distinguished Professor and Presidential Chair in Information Studies at UCLA. ",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/bourg-photo-600x897.png",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "Chris Bourg",
+          "caption3": "Chris Bourg is the Director of Libraries at Massachusetts Institute of Technology<br>(MIT), where she also has oversight of the MIT Press. Prior",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/sayeed-257x307.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "Sayeed Choudhury",
+          "caption4": "G. Sayeed Choudhury is the Associate Dean for Research Data Management and Hodson Director of the Digital Research and Curation Center at the Sheridan Libraries of Johns Hopkins University. He is a President Obama appointee to the National Museum and Library Services Board.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1h"
+        },
+        {
+          "_params": {
+            "showHeader": false,
+            "showSubheader": false,
+            "showImages": true,
+            "showTitles": true,
+            "showCaptions": true,
+            "showButtons": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "columns": "3",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "headerAlign": "left",
+          "header": "DROP-DEAD EASY WEBSITE MAKER",
+          "subheader": "By John Smith posted July 30, 2015",
+          "media1": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/abby-600x600.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title1": "Abby Smith Rumsey",
+          "caption1": "Abby Smith Rumsey is a writer and historian of ideas focusing on the creation, preservation, and use of the cultural record in all media. ",
+          "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media2": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/charles-henry-600x765.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title2": "Charles (Chuck) Henry",
+          "caption2": "Charles J. Henry is President of the Council on Library and Information Resources (CLIR). ",
+          "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media3": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/ethan-600x600.jpg",
+              "class": "mbr-figure__img",
+              "width": 600,
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title3": "Ethan Zuckerman",
+          "caption3": "Ethan Zuckerman is director of the Center for Civic Media at MIT, and Associate Professor of the Pratice at MIT's Media Lab. ",
+          "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>",
+          "media4": {
+            "image": {
+              "active": true,
+              "src": "images/unlimited-websites.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title4": "UNLIMITED WEBSITES",
+          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media5": {
+            "image": {
+              "active": true,
+              "src": "images/blocks.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title5": "TRENDY WEBSITE BLOCKS",
+          "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+          "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "media6": {
+            "image": {
+              "active": true,
+              "src": "images/host.png",
+              "class": "mbr-figure__img",
+              "width": 600
+            },
+            "video": {
+              "class": "mbr-figure__img",
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title6": "HOST ANYWHERE",
+          "caption6": "Publish your website to a local drive, FTP or host on Amazon S3, Google Drive, Github. Don't limit yourself to just one platform or service provider.",
+          "button6": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"mbr-buttons__btn btn btn-wrap btn-xs-lg btn-default\">LEARN MORE</a>",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-1i"
         },
         {
           "_inherit": "msg-box3",
@@ -1199,15 +1576,15 @@
             "darkBackground": true,
             "overlay": true,
             "overlayColor": "#28324e",
-            "overlayOpacity": "0.6"
+            "overlayOpacity": "0.8"
           },
-          "title": "Blog Updates",
-          "text": "<p>Welcome to the Grand Challenges website!</p>",
+          "title": "Summit Blog Updates",
+          "text": "<p>Welcome to the Grand Challenges Blog!</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
           "_tags": [
             "Theme"
           ],
-          "meta": "By John Smith posted July 30, 2015",
+          "meta": "By MIT Libraries",
           "_name": "content5",
           "_anchor": "content5-u"
         },
@@ -1225,7 +1602,7 @@
           },
           "_params": {
             "showTitle": true,
-            "showMeta": false,
+            "showMeta": true,
             "showText": true,
             "showButtons": true,
             "inverse": false,
@@ -1261,9 +1638,9 @@
               "loop": false
             }
           },
-          "title": "LIVESTREAM",
+          "title": "KEYNOTE LIVESTREAM",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Online video and Youtube particularly is now more popular than cable television. Mobirise provides a support for YouTube and Vimeo that allow you to liven up your sites.</p>",
+          "text": "<p>View all three Keynote speakers live through YouTube Live!</p><p>Tune In,</p><p>Carla Hayden, March 19, 9am EST</p><p>Anasuya Sengupta, March 20, &nbsp;1pm EST</p><p>Joi Ito, March 22, 9am EST</p>",
           "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">WATCH</a>",
           "_tags": [
             "Theme"
@@ -1306,7 +1683,7 @@
               "googleLink": "https://fonts.googleapis.com/css?family=Open+Sans:400,300,700"
             }
           },
-          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header2-h\">About</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-r\">Keynote Speakers</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header4-j\">Attending</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-m\">Grand Challenges</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-u\">Blog</a></li>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header2-h\">About</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-r\">Keynote <br>Speakers</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header4-j\">Attending</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-m\">Grand <br>Challenges</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#features1-m\">Program <br>Committee</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#content5-u\">Blog</a></li>",
           "logo": {
             "image": {
               "active": true,
@@ -1323,26 +1700,94 @@
               "size": 0
             }
           },
-          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">Grand Challenges Summit</a>",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"#top\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">MIT Working Summit for <br>Grand Challenges&nbsp;</a>",
           "_name": "ext.menu",
           "_anchor": "ext_menu-v"
         },
         {
+          "_inherit": "msg-box5",
           "_params": {
-            "paddingTop": 3,
-            "paddingBottom": 3,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": false,
+            "showButtons": false,
+            "inverse": true,
+            "imageSize": "28",
+            "paddingTop": "1",
+            "paddingBottom": "1",
             "bgImageRadio": false,
             "bgImage": "images/bg3.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#3c3c3c",
+            "bgColor": "#b8312f",
+            "bgVideoRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "overlay": false,
+            "overlayColor": "#222",
+            "overlayOpacity": 0.5
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mellon-696x378.jpg",
+              "link": "",
+              "alt": "",
+              "title": ""
+            },
+            "video": {
+              "src": "http://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "The Grand Challenges Summit is primarily undertaken with the financial support of the Mellon Foundation.",
+          "text": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface.</p>",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".mbr-header__text": {
+              "color": "#ffffff"
+            },
+            ".mbr-header__subtext": {
+              "color": "#ffffff"
+            },
+            ".mbr-article": {
+              "color": "#ffffff"
+            }
+          },
+          "headerAlign": "left",
+          "meta": "By John Smith posted July 30, 2015",
+          "button": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"https://mobirise.com\">LEARN MORE</a>",
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-1c"
+        },
+        {
+          "_params": {
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "bgImage": "images/bg3.jpg",
+            "parallax": true,
+            "bgColorRadio": true,
+            "bgColor": "#000000",
             "overlay": true,
             "overlayColor": "#3C3C3C",
             "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
-              "src": "@PROJECT_PATH@/assets/images/mellon-265x143.jpg",
+              "src": "@PROJECT_PATH@/assets/images/screen-shot-2018-01-03-at-3.44.11-pm-265x98.png",
               "class": "mbr-contacts__img mbr-contacts__img--left",
               "width": 265,
               "active": true,
@@ -1352,13 +1797,16 @@
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "linkInNewWindow": false,
+              "name": "mobirise",
+              "family": "MobiriseIcons",
               "link": "https://mobirise.com",
-              "size": 0
+              "size": "200"
             }
           },
-          "text1": "The Grand Challenges Summit is primarily undertaken with the financial support of the Mellon Foundation.<br>",
+          "text1": "We envision a world where enduring, abundant, equitable, and meaningful access to information serves to empower and inspire humanity.<br>",
           "text2": "<strong>CONTACTS</strong><br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/\">Website builder</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-win.zip\">Download for Windows</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://mobirise.com/mobirise-free-mac.zip\">Download for Mac</a></li></ul>",
+          "text3": "<p class=\"mbr-contacts__text\"><strong>LINKS</strong></p><ul class=\"mbr-contacts__list\"><li><a class=\"mbr-contacts__link text-gray\" href=\"https://libraries.mit.edu/\">MIT Libraries</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"http://grandchallenges.mit.edu\">MIT Grand Challenges</a></li><li><a class=\"mbr-contacts__link text-gray\" href=\"https://www.youtube.com/user/MITLibraries\">MIT Libraries on YouTube</a></li></ul>",
           "_tags": [
             "Theme"
           ],
