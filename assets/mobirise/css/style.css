@@ -1157,7 +1157,11 @@ html {
   margin: 8px 0 7px 0;
 }
 #msg-box5-18 .mbr-header__subtext,
-#msg-box5-18 .mbr-article {
+#msg-box5-18 .mbr-article,
+#content4-1b .mbr-article,
+#features1-1h .mbr-article,
+#content5-u .mbr-header__subtext,
+#content5-u .mbr-article {
   color: #000;
 }
 .mbr-header--inline {
