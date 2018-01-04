@@ -1156,6 +1156,10 @@ html {
   letter-spacing: 1px;
   margin: 8px 0 7px 0;
 }
+#msg-box5-18 .mbr-header__subtext,
+#msg-box5-18 .mbr-article {
+  color: #000;
+}
 .mbr-header--inline {
   margin-top: 0;
   padding: 41px 0 28px 0;
